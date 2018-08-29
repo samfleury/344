@@ -1,0 +1,1 @@
+SELECT pno FROM works_on WHERE essn = (SELECT ssn FROM employee WHERE lname LIKE 'Smith') UNION SELECT pnumber FROM project WHERE dnum = (SELECT dnumber FROM department WHERE mgrssn = (SELECT ssn FROM employee WHERE lname LIKE 'Smith'));

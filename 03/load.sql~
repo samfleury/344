@@ -1,0 +1,1 @@
+INSERT INTO lab2a VALUES (1, 1.1, 'yay i love oracle', TO_DATE('01-01-2009', 'DD-MM-YYYY'));

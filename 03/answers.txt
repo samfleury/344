@@ -1,0 +1,5 @@
+#Export file is an Oracle binary-format dump file.
+#Works on different hardware and software configurations.
+#Can be used just to look at contents of export without importing using SHOW.
+
+
